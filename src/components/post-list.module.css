@@ -1,0 +1,23 @@
+.postsContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h2 {
+    cursor: pointer;
+}
+
+.post h2:hover {
+    color: blue;
+}
